@@ -806,4 +806,8 @@ Wire Wire Line
 	1250 4650 650  4650
 Wire Wire Line
 	2250 4650 2750 4650
+Text GLabel 4900 4550 0    60   Input ~ 0
+NRST
+Wire Wire Line
+	5100 4550 4900 4550
 $EndSCHEMATC
