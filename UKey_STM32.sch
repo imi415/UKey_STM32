@@ -290,9 +290,9 @@ F 3 "" H 1350 7300 50  0001 C CNN
 	1    1200 7350
 	1    0    0    -1  
 $EndComp
-Text GLabel 1250 4750 0    60   Input ~ 0
-USB_DP
 Text GLabel 1250 4550 0    60   Input ~ 0
+USB_DP
+Text GLabel 1250 4750 0    60   Input ~ 0
 USB_DM
 $Comp
 L VBUS #PWR07
@@ -329,7 +329,7 @@ U 1 1 59DCB0F5
 P 1550 6100
 F 0 "SW2" H 1550 6350 50  0000 C CNN
 F 1 "SW_DIP_x02" H 1550 5950 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_DIP_x2_W5.08mm_Slide_Copal_CHS-A" H 1550 6100 50  0001 C CNN
+F 2 "Buttons_Switches_SMD:SW_DIP_x2_W7.62mm_Slide_Copal_CHS-B" H 1550 6100 50  0001 C CNN
 F 3 "" H 1550 6100 50  0001 C CNN
 	1    1550 6100
 	1    0    0    -1  
@@ -520,7 +520,7 @@ U 1 1 59DCCCDD
 P 1750 4650
 F 0 "U1" H 1550 4850 70  0000 C CNN
 F 1 "NUF2221W1" H 1750 4425 70  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering" H 1750 4650 60  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering" H 1750 4650 60  0001 C CNN
 F 3 "" H 1750 4650 60  0001 C CNN
 	1    1750 4650
 	1    0    0    -1  
@@ -529,9 +529,9 @@ Text GLabel 1500 7450 2    60   Input ~ 0
 EMI_DM
 Text GLabel 1500 7350 2    60   Input ~ 0
 EMI_DP
-Text GLabel 2250 4550 2    60   Input ~ 0
-EMI_DM
 Text GLabel 2250 4750 2    60   Input ~ 0
+EMI_DM
+Text GLabel 2250 4550 2    60   Input ~ 0
 EMI_DP
 $Comp
 L GND #PWR013

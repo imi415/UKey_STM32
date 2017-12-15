@@ -190,9 +190,7 @@ Wire Wire Line
 Connection ~ 2000 1600
 Connection ~ 2300 1000
 Wire Wire Line
-	1300 1100 1200 1100
-Wire Wire Line
-	1200 1100 1200 1350
+	850  1100 1300 1100
 Wire Wire Line
 	1050 2850 1050 3100
 Wire Wire Line
@@ -810,4 +808,5 @@ Text GLabel 4900 4550 0    60   Input ~ 0
 NRST
 Wire Wire Line
 	5100 4550 4900 4550
+Connection ~ 850  1100
 $EndSCHEMATC
